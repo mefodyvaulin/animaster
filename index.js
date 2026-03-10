@@ -79,8 +79,7 @@ function animaster() {
                     timers.forEach(clearTimeout);
                     element.style.transitionDuration = null;
                     element.style.transform = null;
-                    element.classList.remove('show');
-                    element.classList.add('hide');
+                    element.classList.remove('show', 'hide');
                 }
             };
         },
